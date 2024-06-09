@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        .header {
+            text-align: center;
+        }
+        .menu ul {
+            list-style: none;
+            padding: 0;        
+            margin: 0;
+            display: flex;
+            justify-content:center;
+        }
+        .menu ul li {
+            padding: 5px;
+        }
+        .content {
+            font-size: 20px;
+        }
+        .footer ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .footer ul li {
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul class="menu">
+                <ul>
+                    <li><a href="index.html"> Página Inicial </a></li>
+                    <li><a href="sobre.html"> Sobre a clínica </a></li>
+                    <li><a href="horario.html"> Horário de Atendimento</a></li>
+                </ul>
+            </ul>
+        </div>
+
+        <div class="main">
+            <hr>
+            <div class="header">
+                <img src="https://www.septe.com.br/wp-content/uploads/2022/02/sistema-de-telefonia-para-clinica.jpg" width="700" height="500" alt="contato">
+            </div>
+    
+            <div class="content">
+                <div class="content">
+                    <h1>Agendamento e Formas de Contato</h1>
+                    <p>Na Clínica SeteMed, valorizamos seu tempo e priorizamos a conveniência no agendamento de suas consultas. Para facilitar, oferecemos diversas formas de agendamento e contato.</p>
+                    <h2>Agendamento de Consultas</h2>
+                    <p>Você pode agendar suas consultas de forma rápida e prática através dos seguintes canais:</p>
+                    <ul>
+                        <li> <strong>Telefone:</strong> Ligue para nossa central de atendimento pelo número (19) 4263-6548. Nossa equipe está disponível para atender suas ligações de segunda a sexta, das 8h às 18h, e aos sábados, das 8h às 14h.</li>
+                        <li> <strong>WhatsApp:</strong> Envie uma mensagem para nosso WhatsApp (19) 98765-4321. Nosso atendimento via WhatsApp é rápido e eficiente, permitindo que você agende suas consultas de forma fácil e descomplicada.</li>
+                        <li> <strong>E-mail:</strong> Caso prefira, você pode enviar um e-mail para contato@setemed.com com suas informações e a data desejada para a consulta. Nossa equipe responderá o mais breve possível para confirmar o agendamento.</li>
+                    </ul>
+                    <p>Além disso, você pode nos seguir nas redes sociais para ficar por dentro das novidades e atualizações:</p>
+                    <ul>
+                        <li><a href="https://facebook.com/clinicasetemed"> Facebook </a></li>
+                        <li><a href="https://instagram.com/clinicasetemed"> Instagram</a></li>
+                    </ul>
+                    <p>Na Clínica SeteMed, sua saúde e bem-estar são nossa prioridade. Entre em contato e agende sua consulta hoje mesmo!</p>
+                    <h1>Venha nos visitar</h1>
+                    <p>Estamos à sua disposição para cuidar da sua saúde. Agende uma visita e conheça a Clínica SeteMed. Aqui, sua saúde é nossa prioridade. Nossa clínica esta localizada em Campinas/São Paulo - Rua Camargo Penteado, 75 - Jardim Guanabara</p>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d918.8875264498428!2d-47.070382130420406!3d-22.893072063234566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c61d650fb075%3A0xb3532d7c6e57c735!2sR.%20Camargo%20Penteado%2C%2075-153%20-%20Jardim%20Guanabara%2C%20Campinas%20-%20SP%2C%2013073-360!5e0!3m2!1spt-BR!2sbr!4v1717788302191!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <hr>
+            <div class="form">
+                <h2>Entre em Contato</h2>
+                <form name="contato" action="" method="post">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="subject">Assunto:</label>
+                    <input type="text" id="subject" name="subject" required>
+
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" required></textarea>        
+
+                    <div class="buttons">
+                        <button type="submit" class="submit-btn">Enviar</button>
+                        <button type="reset" class="reset-btn">Limpar Formulário</button>
+                    </div>
+                </form>
+                <hr>
+            </div>
+            <div class="footer">
+                <p>Telefone: (19) 4263-6548 / E-mail: contato@setemed.com </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
